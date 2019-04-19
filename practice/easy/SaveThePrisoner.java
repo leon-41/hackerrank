@@ -1,0 +1,13 @@
+package easy;
+
+public class SaveThePrisoner {
+
+
+    static int saveThePrisoner(int n, int m, int s) {
+
+
+        return (m + s - 1) % n == 0 ? n : (m + s - 1) % n;
+
+    }
+
+}
